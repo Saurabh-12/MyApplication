@@ -15,14 +15,11 @@ public class MyThreadYield {
 			et.start();
 		}
 		
-		
 		for (ExmpThread et : list) {
 			try {
 				et.join();
 			} catch (InterruptedException ex) {
 			}
 		}
-
 	}
-
 }
